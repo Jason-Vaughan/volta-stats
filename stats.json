@@ -1,0 +1,100 @@
+{
+  "agent": "volta",
+  "cron": {
+    "count": 1,
+    "jobs": [
+      {
+        "cron": "0 * * * *",
+        "enabled": true,
+        "name": "heartbeat-check",
+        "nextRunAtMs": null,
+        "sessionTarget": "isolated"
+      }
+    ]
+  },
+  "generated": "2026-05-25T01:08:32.862256+00:00",
+  "host": "volta",
+  "openclaw": {
+    "memory": {
+      "backend": "qmd"
+    },
+    "model": {
+      "compactionReserve": 20000,
+      "primary": "ollama/qwen2.5-1m:14b-instruct-q6_K",
+      "sandbox": "off"
+    },
+    "plugins": {
+      "disabled": [
+        "canvas",
+        "device-pair",
+        "file-transfer",
+        "phone-control",
+        "talk-voice"
+      ],
+      "loaded": [
+        "browser",
+        "discord",
+        "github-copilot",
+        "google",
+        "groq",
+        "ollama",
+        "openai"
+      ]
+    },
+    "version": "2026.5.22"
+  },
+  "qmd": {
+    "collections": [
+      "memory-dir-main",
+      "memory-root-main",
+      "workspace"
+    ],
+    "documents": 25,
+    "indexSizeBytes": 23437312,
+    "lastModifiedAt": "2026-05-25T00:43:21.956593+00:00",
+    "vectors": 128
+  },
+  "schemaVersion": 1,
+  "system": {
+    "diskFreeBytes": 439355760640,
+    "diskTotalBytes": 501809635328,
+    "diskUsedBytes": 36888072192,
+    "loadAvg15m": 0.0,
+    "loadAvg1m": 0.0,
+    "loadAvg5m": 0.0,
+    "machineUptimeSec": 2162,
+    "memoryAvailBytes": 13731655680,
+    "memoryTotalBytes": 15838294016
+  },
+  "tokens": {
+    "byModel": {
+      "unknown": 10567206
+    },
+    "last24h": {
+      "byModel": {
+        "unknown": 4162023
+      },
+      "input": 4115531,
+      "output": 46492,
+      "requests": 127,
+      "total": 4162023
+    },
+    "last7d": {
+      "input": 4488442,
+      "output": 49830,
+      "requests": 145,
+      "total": 4538272
+    },
+    "lastTurnAt": "2026-05-25T01:03:35.300Z",
+    "total": {
+      "input": 5061325,
+      "output": 108558,
+      "requests": 233,
+      "total": 10567206
+    }
+  },
+  "workspace": {
+    "fileCount": 21,
+    "totalBytes": 235574
+  }
+}
