@@ -12,7 +12,7 @@
       }
     ]
   },
-  "generated": "2026-05-25T11:47:55.063418+00:00",
+  "generated": "2026-05-25T12:48:13.082265+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -54,21 +54,21 @@
     ],
     "documents": 26,
     "indexSizeBytes": 23437312,
-    "lastModifiedAt": "2026-05-25T10:52:18.253233+00:00",
+    "lastModifiedAt": "2026-05-25T11:53:18.248215+00:00",
     "vectors": 136
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 434466111488,
+    "diskFreeBytes": 434465456128,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 41777721344,
+    "diskUsedBytes": 41778376704,
     "loadAvg15m": 0.0,
-    "loadAvg1m": 0.06,
-    "loadAvg5m": 0.05,
-    "memoryAvailBytes": 13418045440,
+    "loadAvg1m": 0.0,
+    "loadAvg5m": 0.01,
+    "memoryAvailBytes": 13406142464,
     "memoryTotalBytes": 15838294016,
     "perspective": "container",
-    "uptimeSec": 40528
+    "uptimeSec": 44147
   },
   "tokens": {
     "byModel": {
@@ -76,33 +76,33 @@
       "gemini-2.5-flash": 746161,
       "llama3.2:1b": 41,
       "llama3.3:70b-instruct-q8_0": 560502,
-      "qwen2.5-1m:14b-instruct-q6_K": 5976312,
+      "qwen2.5-1m:14b-instruct-q6_K": 6083162,
       "qwen2.5-coder:32b-instruct-fp16": 395358,
       "qwen2.5:14b-instruct-q4_K_M": 2463610
     },
     "last24h": {
       "byModel": {
         "llama3.3:70b-instruct-q8_0": 560502,
-        "qwen2.5-1m:14b-instruct-q6_K": 5976312,
-        "qwen2.5:14b-instruct-q4_K_M": 558241
+        "qwen2.5-1m:14b-instruct-q6_K": 6083162,
+        "qwen2.5:14b-instruct-q4_K_M": 271663
       },
-      "input": 7048650,
-      "output": 46405,
+      "input": 6873275,
+      "output": 42052,
       "requests": 188,
-      "total": 7095055
+      "total": 6915327
     },
     "last7d": {
-      "input": 9142556,
-      "output": 73746,
-      "requests": 257,
-      "total": 9216302
+      "input": 9249149,
+      "output": 74003,
+      "requests": 261,
+      "total": 9323152
     },
-    "lastTurnAt": "2026-05-25T11:40:38.570Z",
+    "lastTurnAt": "2026-05-25T12:48:15.305Z",
     "total": {
-      "input": 9892195,
-      "output": 135198,
-      "requests": 352,
-      "total": 15424716
+      "input": 9998788,
+      "output": 135455,
+      "requests": 356,
+      "total": 15531566
     }
   },
   "workspace": {
