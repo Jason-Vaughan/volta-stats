@@ -12,7 +12,7 @@
       }
     ]
   },
-  "generated": "2026-05-25T02:30:04.062032+00:00",
+  "generated": "2026-05-25T02:45:21.081912+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -51,21 +51,21 @@
     ],
     "documents": 26,
     "indexSizeBytes": 23437312,
-    "lastModifiedAt": "2026-05-25T01:44:22.917968+00:00",
+    "lastModifiedAt": "2026-05-25T02:45:18.249257+00:00",
     "vectors": 136
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 436312547328,
+    "diskFreeBytes": 436311863296,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 39931285504,
+    "diskUsedBytes": 39931969536,
     "loadAvg15m": 0.0,
-    "loadAvg1m": 0.06,
-    "loadAvg5m": 0.02,
-    "memoryAvailBytes": 13480456192,
+    "loadAvg1m": 0.05,
+    "loadAvg5m": 0.03,
+    "memoryAvailBytes": 13452738560,
     "memoryTotalBytes": 15838294016,
     "perspective": "container",
-    "uptimeSec": 7057
+    "uptimeSec": 7974
   },
   "tokens": {
     "byModel": {
@@ -73,33 +73,33 @@
       "gemini-2.5-flash": 746161,
       "llama3.2:1b": 41,
       "llama3.3:70b-instruct-q8_0": 560502,
-      "qwen2.5-1m:14b-instruct-q6_K": 1717927,
+      "qwen2.5-1m:14b-instruct-q6_K": 1874801,
       "qwen2.5-coder:32b-instruct-fp16": 395358,
       "qwen2.5:14b-instruct-q4_K_M": 2463610
     },
     "last24h": {
       "byModel": {
         "llama3.3:70b-instruct-q8_0": 560502,
-        "qwen2.5-1m:14b-instruct-q6_K": 1717927,
+        "qwen2.5-1m:14b-instruct-q6_K": 1874801,
         "qwen2.5:14b-instruct-q4_K_M": 2281258
       },
-      "input": 4509238,
-      "output": 50449,
-      "requests": 135,
-      "total": 4559687
+      "input": 4663707,
+      "output": 52854,
+      "requests": 142,
+      "total": 4716561
     },
     "last7d": {
-      "input": 5082958,
-      "output": 54439,
-      "requests": 164,
-      "total": 5137397
+      "input": 5237427,
+      "output": 56844,
+      "requests": 171,
+      "total": 5294271
     },
-    "lastTurnAt": "2026-05-25T02:22:25.901Z",
+    "lastTurnAt": "2026-05-25T02:44:53.873Z",
     "total": {
-      "input": 5655841,
-      "output": 113167,
-      "requests": 252,
-      "total": 11166331
+      "input": 5810310,
+      "output": 115572,
+      "requests": 259,
+      "total": 11323205
     }
   },
   "workspace": {
