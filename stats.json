@@ -19,7 +19,7 @@
       }
     ]
   },
-  "generated": "2026-05-26T20:00:04.585906+00:00",
+  "generated": "2026-05-26T20:15:05.721296+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -66,48 +66,50 @@
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 434414792704,
+    "diskFreeBytes": 434414333952,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 41829040128,
+    "diskUsedBytes": 41829498880,
     "loadAvg15m": 0.0,
-    "loadAvg1m": 0.02,
-    "loadAvg5m": 0.02,
-    "memoryAvailBytes": 13345673216,
+    "loadAvg1m": 0.0,
+    "loadAvg5m": 0.01,
+    "memoryAvailBytes": 13303287808,
     "memoryTotalBytes": 15838294016,
     "perspective": "container",
-    "uptimeSec": 156457
+    "uptimeSec": 157357
   },
   "tokens": {
     "byModel": {
       "claude-haiku-4.5": 5282732,
       "gemini-2.5-flash": 746161,
+      "gemma4:31b": 27336,
       "llama3.2:1b": 41,
       "llama3.3:70b-instruct-q8_0": 560502,
-      "qwen2.5-1m:14b-instruct-q6_K": 9881963,
+      "qwen2.5-1m:14b-instruct-q6_K": 9949652,
       "qwen2.5-coder:32b-instruct-fp16": 395358,
       "qwen2.5:14b-instruct-q4_K_M": 2463610
     },
     "last24h": {
       "byModel": {
-        "qwen2.5-1m:14b-instruct-q6_K": 3183106
+        "gemma4:31b": 27336,
+        "qwen2.5-1m:14b-instruct-q6_K": 3216266
       },
-      "input": 3166400,
-      "output": 16706,
-      "requests": 128,
-      "total": 3183106
+      "input": 3226583,
+      "output": 17019,
+      "requests": 131,
+      "total": 3243602
     },
     "last7d": {
-      "input": 13030232,
-      "output": 91721,
-      "requests": 410,
-      "total": 13121953
+      "input": 13124938,
+      "output": 92040,
+      "requests": 414,
+      "total": 13216978
     },
-    "lastTurnAt": "2026-05-26T19:45:07.128Z",
+    "lastTurnAt": "2026-05-26T20:15:07.040Z",
     "total": {
-      "input": 13779871,
-      "output": 153173,
-      "requests": 505,
-      "total": 19330367
+      "input": 13874577,
+      "output": 153492,
+      "requests": 509,
+      "total": 19425392
     }
   },
   "workspace": {
