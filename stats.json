@@ -19,7 +19,7 @@
       }
     ]
   },
-  "generated": "2026-05-27T14:15:03.498834+00:00",
+  "generated": "2026-05-27T14:30:03.590233+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -66,16 +66,16 @@
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 434408153088,
+    "diskFreeBytes": 434407886848,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 41835679744,
+    "diskUsedBytes": 41835945984,
     "loadAvg15m": 0.0,
-    "loadAvg1m": 0.08,
-    "loadAvg5m": 0.04,
-    "memoryAvailBytes": 13346336768,
+    "loadAvg1m": 0.07,
+    "loadAvg5m": 0.02,
+    "memoryAvailBytes": 13346914304,
     "memoryTotalBytes": 15838294016,
     "perspective": "container",
-    "uptimeSec": 222156
+    "uptimeSec": 223057
   },
   "tokens": {
     "byModel": {
@@ -84,32 +84,32 @@
       "gemma4:31b": 462692,
       "llama3.2:1b": 41,
       "llama3.3:70b-instruct-q8_0": 560502,
-      "qwen2.5-1m:14b-instruct-q6_K": 11841845,
+      "qwen2.5-1m:14b-instruct-q6_K": 11860599,
       "qwen2.5-coder:32b-instruct-fp16": 395358,
       "qwen2.5:14b-instruct-q4_K_M": 2463610
     },
     "last24h": {
       "byModel": {
         "gemma4:31b": 462692,
-        "qwen2.5-1m:14b-instruct-q6_K": 3352552
+        "qwen2.5-1m:14b-instruct-q6_K": 3198677
       },
-      "input": 3794005,
-      "output": 21239,
-      "requests": 155,
-      "total": 3815244
+      "input": 3641280,
+      "output": 20089,
+      "requests": 151,
+      "total": 3661369
     },
     "last7d": {
-      "input": 15441414,
-      "output": 103113,
-      "requests": 512,
-      "total": 15544527
+      "input": 15460034,
+      "output": 103247,
+      "requests": 513,
+      "total": 15563281
     },
-    "lastTurnAt": "2026-05-27T14:00:12.517Z",
+    "lastTurnAt": "2026-05-27T14:15:13.922Z",
     "total": {
-      "input": 16191053,
-      "output": 164565,
-      "requests": 607,
-      "total": 21752941
+      "input": 16209673,
+      "output": 164699,
+      "requests": 608,
+      "total": 21771695
     }
   },
   "workspace": {
