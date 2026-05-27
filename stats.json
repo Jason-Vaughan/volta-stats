@@ -19,7 +19,7 @@
       }
     ]
   },
-  "generated": "2026-05-27T10:00:06.323958+00:00",
+  "generated": "2026-05-27T10:15:06.318017+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -66,16 +66,16 @@
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 434402062336,
+    "diskFreeBytes": 434401320960,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 41841770496,
+    "diskUsedBytes": 41842511872,
     "loadAvg15m": 0.0,
     "loadAvg1m": 0.0,
     "loadAvg5m": 0.0,
-    "memoryAvailBytes": 13333704704,
+    "memoryAvailBytes": 13250322432,
     "memoryTotalBytes": 15838294016,
     "perspective": "container",
-    "uptimeSec": 206859
+    "uptimeSec": 207759
   },
   "tokens": {
     "byModel": {
@@ -84,36 +84,36 @@
       "gemma4:31b": 462692,
       "llama3.2:1b": 41,
       "llama3.3:70b-instruct-q8_0": 560502,
-      "qwen2.5-1m:14b-instruct-q6_K": 11515116,
+      "qwen2.5-1m:14b-instruct-q6_K": 11532621,
       "qwen2.5-coder:32b-instruct-fp16": 395358,
       "qwen2.5:14b-instruct-q4_K_M": 2463610
     },
     "last24h": {
       "byModel": {
         "gemma4:31b": 462692,
-        "qwen2.5-1m:14b-instruct-q6_K": 3344447
+        "qwen2.5-1m:14b-instruct-q6_K": 3343237
       },
-      "input": 3785700,
-      "output": 21439,
+      "input": 3784495,
+      "output": 21434,
       "requests": 154,
-      "total": 3807139
+      "total": 3805929
     },
     "last7d": {
-      "input": 15116564,
-      "output": 101234,
-      "requests": 494,
-      "total": 15217798
+      "input": 15133976,
+      "output": 101327,
+      "requests": 495,
+      "total": 15235303
     },
-    "lastTurnAt": "2026-05-27T09:45:15.171Z",
+    "lastTurnAt": "2026-05-27T10:00:37.543Z",
     "total": {
-      "input": 15866203,
-      "output": 162686,
-      "requests": 589,
-      "total": 21426212
+      "input": 15883615,
+      "output": 162779,
+      "requests": 590,
+      "total": 21443717
     }
   },
   "workspace": {
-    "fileCount": 26,
-    "totalBytes": 277870
+    "fileCount": 29,
+    "totalBytes": 311774
   }
 }
