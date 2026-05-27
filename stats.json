@@ -19,7 +19,7 @@
       }
     ]
   },
-  "generated": "2026-05-26T23:45:05.847573+00:00",
+  "generated": "2026-05-27T00:00:02.750883+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -66,16 +66,16 @@
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 434409197568,
+    "diskFreeBytes": 434408894464,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 41834635264,
-    "loadAvg15m": 0.0,
-    "loadAvg1m": 0.0,
-    "loadAvg5m": 0.0,
-    "memoryAvailBytes": 13266952192,
+    "diskUsedBytes": 41834938368,
+    "loadAvg15m": 0.01,
+    "loadAvg1m": 0.15,
+    "loadAvg5m": 0.05,
+    "memoryAvailBytes": 13273034752,
     "memoryTotalBytes": 15838294016,
     "perspective": "container",
-    "uptimeSec": 169959
+    "uptimeSec": 170854
   },
   "tokens": {
     "byModel": {
@@ -84,32 +84,32 @@
       "gemma4:31b": 462692,
       "llama3.2:1b": 41,
       "llama3.3:70b-instruct-q8_0": 560502,
-      "qwen2.5-1m:14b-instruct-q6_K": 10445569,
+      "qwen2.5-1m:14b-instruct-q6_K": 10483060,
       "qwen2.5-coder:32b-instruct-fp16": 395358,
       "qwen2.5:14b-instruct-q4_K_M": 2463610
     },
     "last24h": {
       "byModel": {
         "gemma4:31b": 462692,
-        "qwen2.5-1m:14b-instruct-q6_K": 3413828
+        "qwen2.5-1m:14b-instruct-q6_K": 3432390
       },
-      "input": 3856623,
-      "output": 19897,
-      "requests": 150,
-      "total": 3876520
+      "input": 3875090,
+      "output": 19992,
+      "requests": 151,
+      "total": 3895082
     },
     "last7d": {
-      "input": 14052934,
-      "output": 95317,
-      "requests": 443,
-      "total": 14148251
+      "input": 14090174,
+      "output": 95568,
+      "requests": 445,
+      "total": 14185742
     },
-    "lastTurnAt": "2026-05-26T23:40:48.712Z",
+    "lastTurnAt": "2026-05-27T00:00:04.762Z",
     "total": {
-      "input": 14802573,
-      "output": 156769,
-      "requests": 538,
-      "total": 20356665
+      "input": 14839813,
+      "output": 157020,
+      "requests": 540,
+      "total": 20394156
     }
   },
   "workspace": {
