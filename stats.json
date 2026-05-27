@@ -19,7 +19,7 @@
       }
     ]
   },
-  "generated": "2026-05-27T16:45:05.405317+00:00",
+  "generated": "2026-05-27T23:57:00.917956+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -66,16 +66,16 @@
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 434333659136,
+    "diskFreeBytes": 434313482240,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 41910173696,
-    "loadAvg15m": 0.1,
-    "loadAvg1m": 0.05,
-    "loadAvg5m": 0.19,
-    "memoryAvailBytes": 12594257920,
-    "memoryTotalBytes": 15837683712,
+    "diskUsedBytes": 41930350592,
+    "loadAvg15m": 0.17,
+    "loadAvg1m": 0.4,
+    "loadAvg5m": 0.38,
+    "memoryAvailBytes": 13053038592,
+    "memoryTotalBytes": 15838679040,
     "perspective": "container",
-    "uptimeSec": 264
+    "uptimeSec": 151
   },
   "tokens": {
     "byModel": {
@@ -84,32 +84,31 @@
       "gemma4:31b": 462692,
       "llama3.2:1b": 41,
       "llama3.3:70b-instruct-q8_0": 560502,
-      "qwen2.5-1m:14b-instruct-q6_K": 12029263,
+      "qwen2.5-1m:14b-instruct-q6_K": 12047999,
       "qwen2.5-coder:32b-instruct-fp16": 395358,
       "qwen2.5:14b-instruct-q4_K_M": 2463610
     },
     "last24h": {
       "byModel": {
-        "gemma4:31b": 462692,
-        "qwen2.5-1m:14b-instruct-q6_K": 2872702
+        "qwen2.5-1m:14b-instruct-q6_K": 1621756
       },
-      "input": 3318618,
-      "output": 16776,
-      "requests": 141,
-      "total": 3335394
+      "input": 1612136,
+      "output": 9620,
+      "requests": 81,
+      "total": 1621756
     },
     "last7d": {
-      "input": 15627593,
-      "output": 104352,
-      "requests": 522,
-      "total": 15731945
+      "input": 15646205,
+      "output": 104476,
+      "requests": 523,
+      "total": 15750681
     },
-    "lastTurnAt": "2026-05-27T16:43:08.788Z",
+    "lastTurnAt": "2026-05-27T16:45:16.866Z",
     "total": {
-      "input": 16377232,
-      "output": 165804,
-      "requests": 617,
-      "total": 21940359
+      "input": 16395844,
+      "output": 165928,
+      "requests": 618,
+      "total": 21959095
     }
   },
   "workspace": {
