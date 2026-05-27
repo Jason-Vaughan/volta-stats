@@ -19,7 +19,7 @@
       }
     ]
   },
-  "generated": "2026-05-27T05:00:03.213344+00:00",
+  "generated": "2026-05-27T05:15:03.600782+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -66,16 +66,16 @@
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 434403414016,
+    "diskFreeBytes": 434403201024,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 41840418816,
-    "loadAvg15m": 0.01,
-    "loadAvg1m": 0.08,
-    "loadAvg5m": 0.07,
-    "memoryAvailBytes": 13326262272,
+    "diskUsedBytes": 41840631808,
+    "loadAvg15m": 0.0,
+    "loadAvg1m": 0.0,
+    "loadAvg5m": 0.0,
+    "memoryAvailBytes": 13332516864,
     "memoryTotalBytes": 15838294016,
     "perspective": "container",
-    "uptimeSec": 188859
+    "uptimeSec": 189756
   },
   "tokens": {
     "byModel": {
@@ -84,32 +84,32 @@
       "gemma4:31b": 462692,
       "llama3.2:1b": 41,
       "llama3.3:70b-instruct-q8_0": 560502,
-      "qwen2.5-1m:14b-instruct-q6_K": 11121232,
+      "qwen2.5-1m:14b-instruct-q6_K": 11158648,
       "qwen2.5-coder:32b-instruct-fp16": 395358,
       "qwen2.5:14b-instruct-q4_K_M": 2463610
     },
     "last24h": {
       "byModel": {
         "gemma4:31b": 462692,
-        "qwen2.5-1m:14b-instruct-q6_K": 3533033
+        "qwen2.5-1m:14b-instruct-q6_K": 3517160
       },
-      "input": 3973884,
-      "output": 21841,
+      "input": 3957987,
+      "output": 21865,
       "requests": 158,
-      "total": 3995725
+      "total": 3979852
     },
     "last7d": {
-      "input": 14725032,
-      "output": 98882,
-      "requests": 472,
-      "total": 14823914
+      "input": 14762273,
+      "output": 99057,
+      "requests": 474,
+      "total": 14861330
     },
-    "lastTurnAt": "2026-05-27T04:45:06.058Z",
+    "lastTurnAt": "2026-05-27T05:15:04.588Z",
     "total": {
-      "input": 15474671,
-      "output": 160334,
-      "requests": 567,
-      "total": 21032328
+      "input": 15511912,
+      "output": 160509,
+      "requests": 569,
+      "total": 21069744
     }
   },
   "workspace": {
