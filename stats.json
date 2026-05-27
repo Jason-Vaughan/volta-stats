@@ -19,7 +19,7 @@
       }
     ]
   },
-  "generated": "2026-05-27T16:00:04.445196+00:00",
+  "generated": "2026-05-27T16:15:02.612056+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -66,16 +66,16 @@
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 434336595968,
+    "diskFreeBytes": 434334277632,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 41907236864,
-    "loadAvg15m": 0.09,
-    "loadAvg1m": 0.37,
-    "loadAvg5m": 0.18,
-    "memoryAvailBytes": 12117434368,
+    "diskUsedBytes": 41909555200,
+    "loadAvg15m": 0.18,
+    "loadAvg1m": 0.17,
+    "loadAvg5m": 0.24,
+    "memoryAvailBytes": 12089643008,
     "memoryTotalBytes": 15838294016,
     "perspective": "container",
-    "uptimeSec": 228457
+    "uptimeSec": 229355
   },
   "tokens": {
     "byModel": {
@@ -84,32 +84,32 @@
       "gemma4:31b": 462692,
       "llama3.2:1b": 41,
       "llama3.3:70b-instruct-q8_0": 560502,
-      "qwen2.5-1m:14b-instruct-q6_K": 11973047,
+      "qwen2.5-1m:14b-instruct-q6_K": 11991785,
       "qwen2.5-coder:32b-instruct-fp16": 395358,
       "qwen2.5:14b-instruct-q4_K_M": 2463610
     },
     "last24h": {
       "byModel": {
         "gemma4:31b": 462692,
-        "qwen2.5-1m:14b-instruct-q6_K": 3060319
+        "qwen2.5-1m:14b-instruct-q6_K": 3031067
       },
-      "input": 3505608,
-      "output": 17403,
-      "requests": 146,
-      "total": 3523011
+      "input": 3476369,
+      "output": 17390,
+      "requests": 145,
+      "total": 3493759
     },
     "last7d": {
-      "input": 15571733,
-      "output": 103996,
-      "requests": 519,
-      "total": 15675729
+      "input": 15590356,
+      "output": 104111,
+      "requests": 520,
+      "total": 15694467
     },
-    "lastTurnAt": "2026-05-27T15:45:15.666Z",
+    "lastTurnAt": "2026-05-27T16:00:14.149Z",
     "total": {
-      "input": 16321372,
-      "output": 165448,
-      "requests": 614,
-      "total": 21884143
+      "input": 16339995,
+      "output": 165563,
+      "requests": 615,
+      "total": 21902881
     }
   },
   "workspace": {
