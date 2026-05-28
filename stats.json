@@ -19,7 +19,7 @@
       }
     ]
   },
-  "generated": "2026-05-28T21:30:03.532582+00:00",
+  "generated": "2026-05-28T21:45:03.191562+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -66,16 +66,16 @@
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 434007261184,
+    "diskFreeBytes": 434008027136,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 42236571648,
-    "loadAvg15m": 0.0,
-    "loadAvg1m": 0.02,
-    "loadAvg5m": 0.01,
-    "memoryAvailBytes": 12973584384,
+    "diskUsedBytes": 42235805696,
+    "loadAvg15m": 0.03,
+    "loadAvg1m": 0.22,
+    "loadAvg5m": 0.12,
+    "memoryAvailBytes": 12992503808,
     "memoryTotalBytes": 15838679040,
     "perspective": "container",
-    "uptimeSec": 77733
+    "uptimeSec": 78631
   },
   "tokens": {
     "byModel": {
@@ -84,31 +84,31 @@
       "gemma4:31b": 462692,
       "llama3.2:1b": 41,
       "llama3.3:70b-instruct-q8_0": 560502,
-      "qwen2.5-1m:14b-instruct-q6_K": 13765712,
+      "qwen2.5-1m:14b-instruct-q6_K": 13803181,
       "qwen2.5-coder:32b-instruct-fp16": 395358,
       "qwen2.5:14b-instruct-q4_K_M": 2463610
     },
     "last24h": {
       "byModel": {
-        "qwen2.5-1m:14b-instruct-q6_K": 1754582
+        "qwen2.5-1m:14b-instruct-q6_K": 1792051
       },
-      "input": 1743256,
-      "output": 11326,
-      "requests": 92,
-      "total": 1754582
+      "input": 1780500,
+      "output": 11551,
+      "requests": 94,
+      "total": 1792051
     },
     "last7d": {
-      "input": 17222117,
-      "output": 114731,
-      "requests": 607,
-      "total": 17336848
+      "input": 17259361,
+      "output": 114956,
+      "requests": 609,
+      "total": 17374317
     },
-    "lastTurnAt": "2026-05-28T21:15:10.049Z",
+    "lastTurnAt": "2026-05-28T21:45:04.189Z",
     "total": {
-      "input": 18102830,
-      "output": 176655,
-      "requests": 708,
-      "total": 23676808
+      "input": 18140074,
+      "output": 176880,
+      "requests": 710,
+      "total": 23714277
     }
   },
   "workspace": {
