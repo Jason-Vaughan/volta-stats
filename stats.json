@@ -19,7 +19,7 @@
       }
     ]
   },
-  "generated": "2026-05-28T20:15:03.133045+00:00",
+  "generated": "2026-05-28T20:30:03.962515+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -66,16 +66,16 @@
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 434009661440,
+    "diskFreeBytes": 434009530368,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 42234171392,
-    "loadAvg15m": 0.0,
-    "loadAvg1m": 0.0,
-    "loadAvg5m": 0.02,
-    "memoryAvailBytes": 13015228416,
+    "diskUsedBytes": 42234302464,
+    "loadAvg15m": 0.07,
+    "loadAvg1m": 0.02,
+    "loadAvg5m": 0.1,
+    "memoryAvailBytes": 13014851584,
     "memoryTotalBytes": 15838679040,
     "perspective": "container",
-    "uptimeSec": 73233
+    "uptimeSec": 74133
   },
   "tokens": {
     "byModel": {
@@ -84,31 +84,31 @@
       "gemma4:31b": 462692,
       "llama3.2:1b": 41,
       "llama3.3:70b-instruct-q8_0": 560502,
-      "qwen2.5-1m:14b-instruct-q6_K": 13672046,
+      "qwen2.5-1m:14b-instruct-q6_K": 13690759,
       "qwen2.5-coder:32b-instruct-fp16": 395358,
       "qwen2.5:14b-instruct-q4_K_M": 2463610
     },
     "last24h": {
       "byModel": {
-        "qwen2.5-1m:14b-instruct-q6_K": 1660916
+        "qwen2.5-1m:14b-instruct-q6_K": 1679629
       },
-      "input": 1650156,
-      "output": 10760,
-      "requests": 87,
-      "total": 1660916
+      "input": 1668772,
+      "output": 10857,
+      "requests": 88,
+      "total": 1679629
     },
     "last7d": {
-      "input": 17129017,
-      "output": 114165,
-      "requests": 602,
-      "total": 17243182
+      "input": 17147633,
+      "output": 114262,
+      "requests": 603,
+      "total": 17261895
     },
-    "lastTurnAt": "2026-05-28T20:00:04.447Z",
+    "lastTurnAt": "2026-05-28T20:15:12.844Z",
     "total": {
-      "input": 18009730,
-      "output": 176089,
-      "requests": 703,
-      "total": 23583142
+      "input": 18028346,
+      "output": 176186,
+      "requests": 704,
+      "total": 23601855
     }
   },
   "workspace": {
