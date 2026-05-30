@@ -19,7 +19,7 @@
       }
     ]
   },
-  "generated": "2026-05-30T18:15:03.454630+00:00",
+  "generated": "2026-05-30T18:30:05.614261+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -66,16 +66,16 @@
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 433842110464,
+    "diskFreeBytes": 433840111616,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 42401722368,
-    "loadAvg15m": 0.01,
-    "loadAvg1m": 0.04,
-    "loadAvg5m": 0.06,
-    "memoryAvailBytes": 12739264512,
+    "diskUsedBytes": 42403721216,
+    "loadAvg15m": 0.0,
+    "loadAvg1m": 0.0,
+    "loadAvg5m": 0.0,
+    "memoryAvailBytes": 12824621056,
     "memoryTotalBytes": 15838679040,
     "perspective": "container",
-    "uptimeSec": 238832
+    "uptimeSec": 239735
   },
   "tokens": {
     "byModel": {
@@ -84,31 +84,31 @@
       "gemma4:31b": 462692,
       "llama3.2:1b": 41,
       "llama3.3:70b-instruct-q8_0": 560502,
-      "qwen2.5-1m:14b-instruct-q6_K": 17197293,
+      "qwen2.5-1m:14b-instruct-q6_K": 17441875,
       "qwen2.5-coder:32b-instruct-fp16": 395358,
       "qwen2.5:14b-instruct-q4_K_M": 2463610
     },
     "last24h": {
       "byModel": {
-        "qwen2.5-1m:14b-instruct-q6_K": 1884928
+        "qwen2.5-1m:14b-instruct-q6_K": 2110771
       },
-      "input": 1872977,
-      "output": 11951,
-      "requests": 102,
-      "total": 1884928
+      "input": 2097804,
+      "output": 12967,
+      "requests": 107,
+      "total": 2110771
     },
     "last7d": {
-      "input": 20613134,
-      "output": 136066,
-      "requests": 792,
-      "total": 20749200
+      "input": 20856587,
+      "output": 137195,
+      "requests": 798,
+      "total": 20993782
     },
-    "lastTurnAt": "2026-05-30T18:00:03.500Z",
+    "lastTurnAt": "2026-05-30T18:18:25.821Z",
     "total": {
-      "input": 21513058,
-      "output": 198008,
-      "requests": 894,
-      "total": 27108389
+      "input": 21756511,
+      "output": 199137,
+      "requests": 900,
+      "total": 27352971
     }
   },
   "workspace": {
