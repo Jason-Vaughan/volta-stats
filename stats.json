@@ -19,7 +19,7 @@
       }
     ]
   },
-  "generated": "2026-06-03T17:30:06.157118+00:00",
+  "generated": "2026-06-03T17:45:04.949702+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -66,16 +66,16 @@
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 432956006400,
+    "diskFreeBytes": 432954195968,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 43287826432,
-    "loadAvg15m": 0.01,
-    "loadAvg1m": 0.16,
-    "loadAvg5m": 0.07,
-    "memoryAvailBytes": 12562182144,
+    "diskUsedBytes": 43289636864,
+    "loadAvg15m": 0.0,
+    "loadAvg1m": 0.08,
+    "loadAvg5m": 0.03,
+    "memoryAvailBytes": 12544126976,
     "memoryTotalBytes": 15838679040,
     "perspective": "container",
-    "uptimeSec": 581734
+    "uptimeSec": 582633
   },
   "tokens": {
     "byModel": {
@@ -84,31 +84,31 @@
       "gemma4:31b": 462692,
       "llama3.2:1b": 41,
       "llama3.3:70b-instruct-q8_0": 560502,
-      "qwen2.5-1m:14b-instruct-q6_K": 29855178,
+      "qwen2.5-1m:14b-instruct-q6_K": 29908654,
       "qwen2.5-coder:32b-instruct-fp16": 395358,
       "qwen2.5:14b-instruct-q4_K_M": 2463610
     },
     "last24h": {
       "byModel": {
-        "qwen2.5-1m:14b-instruct-q6_K": 3124464
+        "qwen2.5-1m:14b-instruct-q6_K": 3133992
       },
-      "input": 3112045,
-      "output": 12419,
-      "requests": 152,
-      "total": 3124464
+      "input": 3121518,
+      "output": 12474,
+      "requests": 153,
+      "total": 3133992
     },
     "last7d": {
-      "input": 17759167,
-      "output": 84881,
-      "requests": 857,
-      "total": 17844048
+      "input": 17812485,
+      "output": 85039,
+      "requests": 860,
+      "total": 17897524
     },
-    "lastTurnAt": "2026-06-03T17:15:13.851Z",
+    "lastTurnAt": "2026-06-03T17:40:46.850Z",
     "total": {
-      "input": 34118741,
-      "output": 250210,
-      "requests": 1473,
-      "total": 39766274
+      "input": 34172059,
+      "output": 250368,
+      "requests": 1476,
+      "total": 39819750
     }
   },
   "workspace": {
