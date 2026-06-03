@@ -19,7 +19,7 @@
       }
     ]
   },
-  "generated": "2026-06-03T09:45:05.586287+00:00",
+  "generated": "2026-06-03T10:00:03.393229+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -66,16 +66,16 @@
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 433234169856,
+    "diskFreeBytes": 433234059264,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 43009662976,
-    "loadAvg15m": 0.02,
-    "loadAvg1m": 0.1,
-    "loadAvg5m": 0.06,
-    "memoryAvailBytes": 12563197952,
+    "diskUsedBytes": 43009773568,
+    "loadAvg15m": 0.0,
+    "loadAvg1m": 0.0,
+    "loadAvg5m": 0.0,
+    "memoryAvailBytes": 12550807552,
     "memoryTotalBytes": 15838679040,
     "perspective": "container",
-    "uptimeSec": 553834
+    "uptimeSec": 554732
   },
   "tokens": {
     "byModel": {
@@ -84,31 +84,31 @@
       "gemma4:31b": 462692,
       "llama3.2:1b": 41,
       "llama3.3:70b-instruct-q8_0": 560502,
-      "qwen2.5-1m:14b-instruct-q6_K": 28886192,
+      "qwen2.5-1m:14b-instruct-q6_K": 28923673,
       "qwen2.5-coder:32b-instruct-fp16": 395358,
       "qwen2.5:14b-instruct-q4_K_M": 2463610
     },
     "last24h": {
       "byModel": {
-        "qwen2.5-1m:14b-instruct-q6_K": 3124282
+        "qwen2.5-1m:14b-instruct-q6_K": 3143037
       },
-      "input": 3111812,
-      "output": 12470,
-      "requests": 152,
-      "total": 3124282
+      "input": 3130428,
+      "output": 12609,
+      "requests": 153,
+      "total": 3143037
     },
     "last7d": {
-      "input": 17343281,
-      "output": 84613,
-      "requests": 840,
-      "total": 17427894
+      "input": 17361895,
+      "output": 84754,
+      "requests": 841,
+      "total": 17446649
     },
-    "lastTurnAt": "2026-06-03T09:40:48.013Z",
+    "lastTurnAt": "2026-06-03T10:00:05.276Z",
     "total": {
-      "input": 33153381,
-      "output": 246584,
-      "requests": 1426,
-      "total": 38797288
+      "input": 33190617,
+      "output": 246829,
+      "requests": 1428,
+      "total": 38834769
     }
   },
   "workspace": {
