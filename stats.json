@@ -19,7 +19,7 @@
       }
     ]
   },
-  "generated": "2026-06-04T09:45:04.285861+00:00",
+  "generated": "2026-06-04T10:00:01.843853+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -66,16 +66,16 @@
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 432939540480,
+    "diskFreeBytes": 432938917888,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 43304292352,
+    "diskUsedBytes": 43304914944,
     "loadAvg15m": 0.0,
-    "loadAvg1m": 0.02,
-    "loadAvg5m": 0.04,
-    "memoryAvailBytes": 12437692416,
+    "loadAvg1m": 0.0,
+    "loadAvg5m": 0.0,
+    "memoryAvailBytes": 12352892928,
     "memoryTotalBytes": 15838679040,
     "perspective": "container",
-    "uptimeSec": 640233
+    "uptimeSec": 641130
   },
   "tokens": {
     "byModel": {
@@ -84,35 +84,35 @@
       "gemma4:31b": 462692,
       "llama3.2:1b": 41,
       "llama3.3:70b-instruct-q8_0": 560502,
-      "qwen2.5-1m:14b-instruct-q6_K": 31496284,
+      "qwen2.5-1m:14b-instruct-q6_K": 31533715,
       "qwen2.5-coder:32b-instruct-fp16": 395358,
       "qwen2.5:14b-instruct-q4_K_M": 2463610
     },
     "last24h": {
       "byModel": {
-        "qwen2.5-1m:14b-instruct-q6_K": 2647400
+        "qwen2.5-1m:14b-instruct-q6_K": 2666089
       },
-      "input": 2635179,
-      "output": 12221,
-      "requests": 132,
-      "total": 2647400
+      "input": 2653807,
+      "output": 12282,
+      "requests": 133,
+      "total": 2666089
     },
     "last7d": {
-      "input": 18637745,
-      "output": 88294,
-      "requests": 899,
-      "total": 18726039
+      "input": 18656360,
+      "output": 88341,
+      "requests": 900,
+      "total": 18744701
     },
-    "lastTurnAt": "2026-06-04T09:30:10.063Z",
+    "lastTurnAt": "2026-06-04T10:00:03.653Z",
     "total": {
-      "input": 35751760,
-      "output": 258297,
-      "requests": 1556,
-      "total": 41407380
+      "input": 35789002,
+      "output": 258486,
+      "requests": 1558,
+      "total": 41444811
     }
   },
   "workspace": {
-    "fileCount": 50,
-    "totalBytes": 571719
+    "fileCount": 51,
+    "totalBytes": 606535
   }
 }
