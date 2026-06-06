@@ -19,7 +19,7 @@
       }
     ]
   },
-  "generated": "2026-06-06T19:00:11.708853+00:00",
+  "generated": "2026-06-06T19:15:06.938935+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -61,21 +61,21 @@
     ],
     "documents": 99,
     "indexSizeBytes": 23437312,
-    "lastModifiedAt": "2026-06-06T18:05:46.881759+00:00",
+    "lastModifiedAt": "2026-06-06T19:05:47.354356+00:00",
     "vectors": 481
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 432806920192,
+    "diskFreeBytes": 432805203968,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 43436912640,
+    "diskUsedBytes": 43438628864,
     "loadAvg15m": 0.0,
-    "loadAvg1m": 0.06,
-    "loadAvg5m": 0.03,
-    "memoryAvailBytes": 12398653440,
+    "loadAvg1m": 0.01,
+    "loadAvg5m": 0.01,
+    "memoryAvailBytes": 12399722496,
     "memoryTotalBytes": 15838679040,
     "perspective": "container",
-    "uptimeSec": 846340
+    "uptimeSec": 847235
   },
   "tokens": {
     "byModel": {
@@ -84,31 +84,31 @@
       "gemma4:31b": 462692,
       "llama3.2:1b": 41,
       "llama3.3:70b-instruct-q8_0": 560502,
-      "qwen2.5-1m:14b-instruct-q6_K": 36163328,
+      "qwen2.5-1m:14b-instruct-q6_K": 36225406,
       "qwen2.5-coder:32b-instruct-fp16": 395358,
       "qwen2.5:14b-instruct-q4_K_M": 2463610
     },
     "last24h": {
       "byModel": {
-        "qwen2.5-1m:14b-instruct-q6_K": 2116258
+        "qwen2.5-1m:14b-instruct-q6_K": 2178336
       },
-      "input": 2104058,
-      "output": 12200,
-      "requests": 110,
-      "total": 2116258
+      "input": 2165940,
+      "output": 12396,
+      "requests": 113,
+      "total": 2178336
     },
     "last7d": {
-      "input": 18608030,
-      "output": 87560,
-      "requests": 902,
-      "total": 18695590
+      "input": 18625274,
+      "output": 87637,
+      "requests": 903,
+      "total": 18712911
     },
-    "lastTurnAt": "2026-06-06T18:45:15.156Z",
+    "lastTurnAt": "2026-06-06T19:15:08.454Z",
     "total": {
-      "input": 40390628,
-      "output": 286473,
-      "requests": 1803,
-      "total": 46074424
+      "input": 40452510,
+      "output": 286669,
+      "requests": 1806,
+      "total": 46136502
     }
   },
   "workspace": {
