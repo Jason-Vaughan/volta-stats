@@ -19,7 +19,7 @@
       }
     ]
   },
-  "generated": "2026-06-08T11:45:42.453434+00:00",
+  "generated": "2026-06-08T12:00:05.750825+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -66,16 +66,16 @@
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 432779464704,
+    "diskFreeBytes": 432781885440,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 43464368128,
-    "loadAvg15m": 0.03,
-    "loadAvg1m": 0.3,
-    "loadAvg5m": 0.12,
-    "memoryAvailBytes": 12305055744,
+    "diskUsedBytes": 43461947392,
+    "loadAvg15m": 0.01,
+    "loadAvg1m": 0.1,
+    "loadAvg5m": 0.08,
+    "memoryAvailBytes": 12347396096,
     "memoryTotalBytes": 15838679040,
     "perspective": "container",
-    "uptimeSec": 993080
+    "uptimeSec": 993935
   },
   "tokens": {
     "byModel": {
@@ -84,31 +84,31 @@
       "gemma4:31b": 462692,
       "llama3.2:1b": 41,
       "llama3.3:70b-instruct-q8_0": 560502,
-      "qwen2.5-1m:14b-instruct-q6_K": 41450699,
+      "qwen2.5-1m:14b-instruct-q6_K": 41469848,
       "qwen2.5-coder:32b-instruct-fp16": 395358,
       "qwen2.5:14b-instruct-q4_K_M": 2463610
     },
     "last24h": {
       "byModel": {
-        "qwen2.5-1m:14b-instruct-q6_K": 3163841
+        "qwen2.5-1m:14b-instruct-q6_K": 3182990
       },
-      "input": 3150720,
-      "output": 13121,
-      "requests": 155,
-      "total": 3163841
+      "input": 3169787,
+      "output": 13203,
+      "requests": 156,
+      "total": 3182990
     },
     "last7d": {
-      "input": 17930215,
-      "output": 85168,
-      "requests": 900,
-      "total": 18015383
+      "input": 17949282,
+      "output": 85250,
+      "requests": 901,
+      "total": 18034532
     },
-    "lastTurnAt": "2026-06-08T11:45:32.125Z",
+    "lastTurnAt": "2026-06-08T11:45:59.213Z",
     "total": {
-      "input": 45656593,
-      "output": 307879,
-      "requests": 2061,
-      "total": 51361795
+      "input": 45675660,
+      "output": 307961,
+      "requests": 2062,
+      "total": 51380944
     }
   },
   "workspace": {
