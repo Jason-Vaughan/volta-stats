@@ -19,7 +19,7 @@
       }
     ]
   },
-  "generated": "2026-06-08T15:30:05.691337+00:00",
+  "generated": "2026-06-08T15:45:05.709155+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -66,16 +66,16 @@
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 432777760768,
+    "diskFreeBytes": 432776069120,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 43466072064,
-    "loadAvg15m": 0.03,
-    "loadAvg1m": 0.37,
-    "loadAvg5m": 0.08,
-    "memoryAvailBytes": 12274495488,
+    "diskUsedBytes": 43467763712,
+    "loadAvg15m": 0.0,
+    "loadAvg1m": 0.09,
+    "loadAvg5m": 0.02,
+    "memoryAvailBytes": 12432531456,
     "memoryTotalBytes": 15838679040,
     "perspective": "container",
-    "uptimeSec": 1006534
+    "uptimeSec": 1007434
   },
   "tokens": {
     "byModel": {
@@ -84,31 +84,31 @@
       "gemma4:31b": 462692,
       "llama3.2:1b": 41,
       "llama3.3:70b-instruct-q8_0": 560502,
-      "qwen2.5-1m:14b-instruct-q6_K": 41905164,
+      "qwen2.5-1m:14b-instruct-q6_K": 41948548,
       "qwen2.5-coder:32b-instruct-fp16": 395358,
       "qwen2.5:14b-instruct-q4_K_M": 2463610
     },
     "last24h": {
       "byModel": {
-        "qwen2.5-1m:14b-instruct-q6_K": 3145096
+        "qwen2.5-1m:14b-instruct-q6_K": 3125812
       },
-      "input": 3131692,
-      "output": 13404,
-      "requests": 154,
-      "total": 3145096
+      "input": 3112512,
+      "output": 13300,
+      "requests": 153,
+      "total": 3125812
     },
     "last7d": {
-      "input": 17948982,
-      "output": 85018,
-      "requests": 902,
-      "total": 18034000
+      "input": 17973621,
+      "output": 85039,
+      "requests": 903,
+      "total": 18058660
     },
-    "lastTurnAt": "2026-06-08T15:15:13.519Z",
+    "lastTurnAt": "2026-06-08T15:40:46.260Z",
     "total": {
-      "input": 46108978,
-      "output": 309959,
-      "requests": 2083,
-      "total": 51816260
+      "input": 46152242,
+      "output": 310079,
+      "requests": 2085,
+      "total": 51859644
     }
   },
   "workspace": {
