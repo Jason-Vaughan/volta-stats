@@ -19,7 +19,7 @@
       }
     ]
   },
-  "generated": "2026-06-09T01:30:05.894272+00:00",
+  "generated": "2026-06-09T01:45:06.568055+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -66,16 +66,16 @@
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 432754434048,
+    "diskFreeBytes": 432752783360,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 43489398784,
-    "loadAvg15m": 0.0,
-    "loadAvg1m": 0.0,
-    "loadAvg5m": 0.01,
-    "memoryAvailBytes": 12278566912,
+    "diskUsedBytes": 43491049472,
+    "loadAvg15m": 0.02,
+    "loadAvg1m": 0.24,
+    "loadAvg5m": 0.07,
+    "memoryAvailBytes": 12396265472,
     "memoryTotalBytes": 15838679040,
     "perspective": "container",
-    "uptimeSec": 1042536
+    "uptimeSec": 1043436
   },
   "tokens": {
     "byModel": {
@@ -84,31 +84,31 @@
       "gemma4:31b": 462692,
       "llama3.2:1b": 41,
       "llama3.3:70b-instruct-q8_0": 560502,
-      "qwen2.5-1m:14b-instruct-q6_K": 43176554,
+      "qwen2.5-1m:14b-instruct-q6_K": 43238627,
       "qwen2.5-coder:32b-instruct-fp16": 395358,
       "qwen2.5:14b-instruct-q4_K_M": 2463610
     },
     "last24h": {
       "byModel": {
-        "qwen2.5-1m:14b-instruct-q6_K": 3097145
+        "qwen2.5-1m:14b-instruct-q6_K": 3115837
       },
-      "input": 3084028,
-      "output": 13117,
-      "requests": 151,
-      "total": 3097145
+      "input": 3102644,
+      "output": 13193,
+      "requests": 152,
+      "total": 3115837
     },
     "last7d": {
-      "input": 18460242,
-      "output": 85422,
-      "requests": 922,
-      "total": 18545664
+      "input": 18503494,
+      "output": 85544,
+      "requests": 924,
+      "total": 18589038
     },
-    "lastTurnAt": "2026-06-09T01:15:06.057Z",
+    "lastTurnAt": "2026-06-09T01:45:07.282Z",
     "total": {
-      "input": 47375308,
-      "output": 315019,
-      "requests": 2144,
-      "total": 53087650
+      "input": 47437181,
+      "output": 315219,
+      "requests": 2147,
+      "total": 53149723
     }
   },
   "workspace": {
