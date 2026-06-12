@@ -19,7 +19,7 @@
       }
     ]
   },
-  "generated": "2026-06-12T23:30:15.634687+00:00",
+  "generated": "2026-06-12T23:45:06.641113+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -48,6 +48,7 @@
         "ollama",
         "openai",
         "skill-workshop",
+        "tangleclaw-ebay-research",
         "tangleclaw-google-oauth"
       ]
     },
@@ -66,16 +67,16 @@
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 432571260928,
+    "diskFreeBytes": 432561426432,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 43672571904,
-    "loadAvg15m": 0.02,
-    "loadAvg1m": 0.03,
-    "loadAvg5m": 0.03,
-    "memoryAvailBytes": 12675555328,
+    "diskUsedBytes": 43682406400,
+    "loadAvg15m": 0.04,
+    "loadAvg1m": 0.46,
+    "loadAvg5m": 0.14,
+    "memoryAvailBytes": 12689072128,
     "memoryTotalBytes": 15838679040,
     "perspective": "container",
-    "uptimeSec": 1380948
+    "uptimeSec": 1381838
   },
   "tokens": {
     "byModel": {
@@ -90,18 +91,18 @@
     },
     "last24h": {
       "byModel": {
-        "qwen2.5-1m:14b-instruct-q6_K": 3049812
+        "qwen2.5-1m:14b-instruct-q6_K": 3031035
       },
-      "input": 3035773,
-      "output": 14039,
-      "requests": 141,
-      "total": 3049812
+      "input": 3017150,
+      "output": 13885,
+      "requests": 140,
+      "total": 3031035
     },
     "last7d": {
-      "input": 17177811,
-      "output": 85724,
-      "requests": 867,
-      "total": 17263535
+      "input": 17159197,
+      "output": 85610,
+      "requests": 866,
+      "total": 17244807
     },
     "lastTurnAt": "2026-06-12T22:10:47.828Z",
     "total": {
