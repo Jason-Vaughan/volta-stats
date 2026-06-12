@@ -19,7 +19,7 @@
       }
     ]
   },
-  "generated": "2026-06-12T22:00:06.474460+00:00",
+  "generated": "2026-06-12T22:15:13.065263+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -27,7 +27,7 @@
     },
     "model": {
       "compactionReserve": 20000,
-      "primary": "ollama/qwen2.5-1m:14b-instruct-q6_K",
+      "primary": "litellm/gpt-oss-120b",
       "sandbox": "off"
     },
     "plugins": {
@@ -61,21 +61,21 @@
     ],
     "documents": 135,
     "indexSizeBytes": 23437312,
-    "lastModifiedAt": "2026-06-12T21:06:33.357853+00:00",
+    "lastModifiedAt": "2026-06-12T22:06:33.609642+00:00",
     "vectors": 681
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 432576708608,
+    "diskFreeBytes": 432575463424,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 43667124224,
-    "loadAvg15m": 0.0,
-    "loadAvg1m": 0.03,
-    "loadAvg5m": 0.01,
-    "memoryAvailBytes": 12178931712,
+    "diskUsedBytes": 43668369408,
+    "loadAvg15m": 0.02,
+    "loadAvg1m": 0.21,
+    "loadAvg5m": 0.06,
+    "memoryAvailBytes": 12758552576,
     "memoryTotalBytes": 15838679040,
     "perspective": "container",
-    "uptimeSec": 1375538
+    "uptimeSec": 1376442
   },
   "tokens": {
     "byModel": {
@@ -84,31 +84,31 @@
       "gemma4:31b": 462692,
       "llama3.2:1b": 41,
       "llama3.3:70b-instruct-q8_0": 560502,
-      "qwen2.5-1m:14b-instruct-q6_K": 51593329,
+      "qwen2.5-1m:14b-instruct-q6_K": 51639081,
       "qwen2.5-coder:32b-instruct-fp16": 395358,
       "qwen2.5:14b-instruct-q4_K_M": 2463610
     },
     "last24h": {
       "byModel": {
-        "qwen2.5-1m:14b-instruct-q6_K": 3135676
+        "qwen2.5-1m:14b-instruct-q6_K": 3162708
       },
-      "input": 3121130,
-      "output": 14546,
-      "requests": 146,
-      "total": 3135676
+      "input": 3148096,
+      "output": 14612,
+      "requests": 147,
+      "total": 3162708
     },
     "last7d": {
-      "input": 17243940,
-      "output": 86292,
+      "input": 17252291,
+      "output": 86273,
       "requests": 871,
-      "total": 17330232
+      "total": 17338564
     },
-    "lastTurnAt": "2026-06-12T21:45:46.043Z",
+    "lastTurnAt": "2026-06-12T22:10:47.828Z",
     "total": {
-      "input": 55745038,
-      "output": 362064,
-      "requests": 2575,
-      "total": 61504425
+      "input": 55790626,
+      "output": 362228,
+      "requests": 2577,
+      "total": 61550177
     }
   },
   "workspace": {
