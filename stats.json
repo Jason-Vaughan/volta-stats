@@ -18,7 +18,7 @@
         "sessionTarget": "isolated"
       },
       {
-        "cron": "8 18 * * *",
+        "cron": "0 7,10,13,16,19,22 * * *",
         "enabled": true,
         "name": "gmail-watch",
         "nextRunAtMs": null,
@@ -26,7 +26,7 @@
       }
     ]
   },
-  "generated": "2026-06-13T01:15:59.576556+00:00",
+  "generated": "2026-06-13T01:30:15.655746+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -74,16 +74,16 @@
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 432439996416,
+    "diskFreeBytes": 432439877632,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 43803836416,
-    "loadAvg15m": 0.02,
-    "loadAvg1m": 0.0,
-    "loadAvg5m": 0.03,
-    "memoryAvailBytes": 12720394240,
+    "diskUsedBytes": 43803955200,
+    "loadAvg15m": 0.01,
+    "loadAvg1m": 0.01,
+    "loadAvg5m": 0.05,
+    "memoryAvailBytes": 12680192000,
     "memoryTotalBytes": 15838679040,
     "perspective": "container",
-    "uptimeSec": 1387290
+    "uptimeSec": 1388145
   },
   "tokens": {
     "byModel": {
@@ -98,18 +98,18 @@
     },
     "last24h": {
       "byModel": {
-        "qwen2.5-1m:14b-instruct-q6_K": 2899474
+        "qwen2.5-1m:14b-instruct-q6_K": 2880761
       },
-      "input": 2886648,
-      "output": 12826,
-      "requests": 133,
-      "total": 2899474
+      "input": 2868027,
+      "output": 12734,
+      "requests": 132,
+      "total": 2880761
     },
     "last7d": {
-      "input": 17028877,
-      "output": 84800,
-      "requests": 859,
-      "total": 17113677
+      "input": 17010255,
+      "output": 84689,
+      "requests": 858,
+      "total": 17094944
     },
     "lastTurnAt": "2026-06-12T22:10:47.828Z",
     "total": {
