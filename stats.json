@@ -18,7 +18,7 @@
         "sessionTarget": "isolated"
       },
       {
-        "cron": "0 18 * * *",
+        "cron": "8 18 * * *",
         "enabled": true,
         "name": "gmail-watch",
         "nextRunAtMs": null,
@@ -26,7 +26,7 @@
       }
     ]
   },
-  "generated": "2026-06-13T01:01:32.656047+00:00",
+  "generated": "2026-06-13T01:15:05.567253+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -69,21 +69,21 @@
     ],
     "documents": 135,
     "indexSizeBytes": 23437312,
-    "lastModifiedAt": "2026-06-13T00:06:34.369407+00:00",
+    "lastModifiedAt": "2026-06-13T01:06:34.609432+00:00",
     "vectors": 681
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 432442560512,
+    "diskFreeBytes": 432440139776,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 43801272320,
+    "diskUsedBytes": 43803693056,
     "loadAvg15m": 0.02,
-    "loadAvg1m": 0.11,
-    "loadAvg5m": 0.08,
-    "memoryAvailBytes": 12642340864,
+    "loadAvg1m": 0.0,
+    "loadAvg5m": 0.04,
+    "memoryAvailBytes": 12750209024,
     "memoryTotalBytes": 15838679040,
     "perspective": "container",
-    "uptimeSec": 1386422
+    "uptimeSec": 1387237
   },
   "tokens": {
     "byModel": {
