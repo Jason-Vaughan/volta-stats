@@ -1,7 +1,7 @@
 {
   "agent": "volta",
   "cron": {
-    "count": 4,
+    "count": 3,
     "jobs": [
       {
         "cron": "*/15 * * * *",
@@ -23,17 +23,10 @@
         "name": "gmail-watch",
         "nextRunAtMs": null,
         "sessionTarget": "isolated"
-      },
-      {
-        "cron": null,
-        "enabled": true,
-        "name": "ebay_pro6000_monitor",
-        "nextRunAtMs": null,
-        "sessionTarget": "isolated"
       }
     ]
   },
-  "generated": "2026-06-13T21:30:15.488196+00:00",
+  "generated": "2026-06-13T21:45:06.060903+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -82,16 +75,16 @@
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 432437317632,
+    "diskFreeBytes": 432436088832,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 43806515200,
+    "diskUsedBytes": 43807744000,
     "loadAvg15m": 0.0,
-    "loadAvg1m": 0.06,
-    "loadAvg5m": 0.02,
-    "memoryAvailBytes": 12942217216,
+    "loadAvg1m": 0.1,
+    "loadAvg5m": 0.03,
+    "memoryAvailBytes": 12915539968,
     "memoryTotalBytes": 15838662656,
     "perspective": "container",
-    "uptimeSec": 62716
+    "uptimeSec": 63607
   },
   "tokens": {
     "byModel": {
@@ -106,18 +99,18 @@
     },
     "last24h": {
       "byModel": {
-        "qwen2.5-1m:14b-instruct-q6_K": 139132
+        "qwen2.5-1m:14b-instruct-q6_K": 93427
       },
-      "input": 138582,
-      "output": 550,
-      "requests": 6,
-      "total": 139132
+      "input": 92995,
+      "output": 432,
+      "requests": 4,
+      "total": 93427
     },
     "last7d": {
-      "input": 15071872,
-      "output": 74433,
-      "requests": 758,
-      "total": 15146305
+      "input": 15047228,
+      "output": 74427,
+      "requests": 757,
+      "total": 15121655
     },
     "lastTurnAt": "2026-06-12T22:10:47.828Z",
     "total": {
