@@ -1,7 +1,7 @@
 {
   "agent": "volta",
   "cron": {
-    "count": 4,
+    "count": 3,
     "jobs": [
       {
         "cron": "*/15 * * * *",
@@ -23,17 +23,10 @@
         "name": "gmail-watch",
         "nextRunAtMs": null,
         "sessionTarget": "isolated"
-      },
-      {
-        "cron": "0 * * * *",
-        "enabled": true,
-        "name": "Search eBay for Blackwell max\u2011q GPU and post any new listin\u2026",
-        "nextRunAtMs": null,
-        "sessionTarget": "isolated"
       }
     ]
   },
-  "generated": "2026-06-13T13:00:17.157778+00:00",
+  "generated": "2026-06-13T13:15:06.961872+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -82,16 +75,16 @@
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 432475144192,
+    "diskFreeBytes": 432474406912,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 43768688640,
+    "diskUsedBytes": 43769425920,
     "loadAvg15m": 0.01,
-    "loadAvg1m": 0.11,
+    "loadAvg1m": 0.08,
     "loadAvg5m": 0.04,
-    "memoryAvailBytes": 12939939840,
+    "memoryAvailBytes": 12892229632,
     "memoryTotalBytes": 15838662656,
     "perspective": "container",
-    "uptimeSec": 32116
+    "uptimeSec": 33006
   },
   "tokens": {
     "byModel": {
@@ -106,18 +99,18 @@
     },
     "last24h": {
       "byModel": {
-        "qwen2.5-1m:14b-instruct-q6_K": 1272921
+        "qwen2.5-1m:14b-instruct-q6_K": 1227219
       },
-      "input": 1268306,
-      "output": 4615,
-      "requests": 60,
-      "total": 1272921
+      "input": 1222725,
+      "output": 4494,
+      "requests": 58,
+      "total": 1227219
     },
     "last7d": {
-      "input": 16078043,
-      "output": 78687,
-      "requests": 807,
-      "total": 16156730
+      "input": 16059430,
+      "output": 78579,
+      "requests": 806,
+      "total": 16138009
     },
     "lastTurnAt": "2026-06-12T22:10:47.828Z",
     "total": {
