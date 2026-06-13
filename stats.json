@@ -1,7 +1,7 @@
 {
   "agent": "volta",
   "cron": {
-    "count": 2,
+    "count": 3,
     "jobs": [
       {
         "cron": "*/15 * * * *",
@@ -16,10 +16,17 @@
         "name": "Memory Dreaming Promotion",
         "nextRunAtMs": null,
         "sessionTarget": "isolated"
+      },
+      {
+        "cron": "0 18 * * *",
+        "enabled": true,
+        "name": "gmail-watch",
+        "nextRunAtMs": null,
+        "sessionTarget": "isolated"
       }
     ]
   },
-  "generated": "2026-06-13T00:45:05.298939+00:00",
+  "generated": "2026-06-13T01:00:20.478548+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -67,16 +74,16 @@
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 432561197056,
+    "diskFreeBytes": 432442724352,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 43682635776,
-    "loadAvg15m": 0.0,
-    "loadAvg1m": 0.07,
-    "loadAvg5m": 0.04,
-    "memoryAvailBytes": 12605972480,
+    "diskUsedBytes": 43801108480,
+    "loadAvg15m": 0.02,
+    "loadAvg1m": 0.12,
+    "loadAvg5m": 0.08,
+    "memoryAvailBytes": 12625850368,
     "memoryTotalBytes": 15838679040,
     "perspective": "container",
-    "uptimeSec": 1385434
+    "uptimeSec": 1386350
   },
   "tokens": {
     "byModel": {
@@ -91,18 +98,18 @@
     },
     "last24h": {
       "byModel": {
-        "qwen2.5-1m:14b-instruct-q6_K": 2955698
+        "qwen2.5-1m:14b-instruct-q6_K": 2936975
       },
-      "input": 2942508,
-      "output": 13190,
-      "requests": 136,
-      "total": 2955698
+      "input": 2923892,
+      "output": 13083,
+      "requests": 135,
+      "total": 2936975
     },
     "last7d": {
-      "input": 17084733,
-      "output": 85193,
-      "requests": 862,
-      "total": 17169926
+      "input": 17066119,
+      "output": 85046,
+      "requests": 861,
+      "total": 17151165
     },
     "lastTurnAt": "2026-06-12T22:10:47.828Z",
     "total": {
