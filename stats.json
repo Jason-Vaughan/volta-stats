@@ -33,7 +33,7 @@
       }
     ]
   },
-  "generated": "2026-06-13T16:00:30.603108+00:00",
+  "generated": "2026-06-13T16:15:22.664909+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -77,21 +77,21 @@
     ],
     "documents": 141,
     "indexSizeBytes": 23437312,
-    "lastModifiedAt": "2026-06-13T15:15:06.993926+00:00",
+    "lastModifiedAt": "2026-06-13T16:15:07.493430+00:00",
     "vectors": 714
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 432453943296,
+    "diskFreeBytes": 432452796416,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 43789889536,
-    "loadAvg15m": 0.01,
-    "loadAvg1m": 0.13,
-    "loadAvg5m": 0.03,
-    "memoryAvailBytes": 13129637888,
+    "diskUsedBytes": 43791036416,
+    "loadAvg15m": 0.03,
+    "loadAvg1m": 0.23,
+    "loadAvg5m": 0.12,
+    "memoryAvailBytes": 13023449088,
     "memoryTotalBytes": 15838662656,
     "perspective": "container",
-    "uptimeSec": 42932
+    "uptimeSec": 43823
   },
   "tokens": {
     "byModel": {
@@ -106,18 +106,18 @@
     },
     "last24h": {
       "byModel": {
-        "qwen2.5-1m:14b-instruct-q6_K": 867468
+        "qwen2.5-1m:14b-instruct-q6_K": 821776
       },
-      "input": 864463,
-      "output": 3005,
-      "requests": 41,
-      "total": 867468
+      "input": 818883,
+      "output": 2893,
+      "requests": 39,
+      "total": 821776
     },
     "last7d": {
-      "input": 15762052,
-      "output": 77059,
-      "requests": 792,
-      "total": 15839111
+      "input": 15718785,
+      "output": 76957,
+      "requests": 790,
+      "total": 15795742
     },
     "lastTurnAt": "2026-06-12T22:10:47.828Z",
     "total": {
