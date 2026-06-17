@@ -26,7 +26,7 @@
       }
     ]
   },
-  "generated": "2026-06-17T18:30:15.339259+00:00",
+  "generated": "2026-06-17T18:45:06.470078+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -75,16 +75,16 @@
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 432440782848,
+    "diskFreeBytes": 432440156160,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 43803049984,
+    "diskUsedBytes": 43803676672,
     "loadAvg15m": 0.0,
-    "loadAvg1m": 0.0,
-    "loadAvg5m": 0.0,
-    "memoryAvailBytes": 12693082112,
+    "loadAvg1m": 0.03,
+    "loadAvg5m": 0.01,
+    "memoryAvailBytes": 12676091904,
     "memoryTotalBytes": 15838662656,
     "perspective": "container",
-    "uptimeSec": 397515
+    "uptimeSec": 398408
   },
   "tokens": {
     "byModel": {
@@ -105,10 +105,10 @@
       "total": 0
     },
     "last7d": {
-      "input": 5254266,
-      "output": 27039,
-      "requests": 262,
-      "total": 5281305
+      "input": 5235641,
+      "output": 26930,
+      "requests": 261,
+      "total": 5262571
     },
     "lastTurnAt": "2026-06-12T22:10:47.828Z",
     "total": {
