@@ -1,39 +1,9 @@
 {
   "agent": "volta",
   "cron": {
-    "count": 4,
-    "jobs": [
-      {
-        "cron": "*/15 * * * *",
-        "enabled": true,
-        "name": "stats-publish",
-        "nextRunAtMs": null,
-        "sessionTarget": "isolated"
-      },
-      {
-        "cron": "0 3 * * *",
-        "enabled": true,
-        "name": "Memory Dreaming Promotion",
-        "nextRunAtMs": null,
-        "sessionTarget": "isolated"
-      },
-      {
-        "cron": "0 7,10,13,16,19,22 * * *",
-        "enabled": true,
-        "name": "gmail-watch",
-        "nextRunAtMs": null,
-        "sessionTarget": "isolated"
-      },
-      {
-        "cron": "0 9 * * *",
-        "enabled": true,
-        "name": "daily_nvidia_pro6000_used_under_5k",
-        "nextRunAtMs": null,
-        "sessionTarget": "session:agent:main:discord:default:direct:1089277411293667458"
-      }
-    ]
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/home/node/.openclaw/cron/jobs.json'"
   },
-  "generated": "2026-07-03T22:00:20.692477+00:00",
+  "generated": "2026-07-03T22:15:03.916858+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -57,11 +27,10 @@
         "discord",
         "github-copilot",
         "google",
-        "groq",
+        "litellm",
         "memory-core",
         "ollama",
         "openai",
-        "skill-workshop",
         "tangleclaw-ebay-research",
         "tangleclaw-ebay-seller",
         "tangleclaw-google-oauth"
@@ -82,16 +51,16 @@
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 427785449472,
+    "diskFreeBytes": 426567032832,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 48458383360,
-    "loadAvg15m": 0.1,
-    "loadAvg1m": 0.47,
-    "loadAvg5m": 0.27,
-    "memoryAvailBytes": 11694206976,
+    "diskUsedBytes": 49676800000,
+    "loadAvg15m": 0.13,
+    "loadAvg1m": 0.01,
+    "loadAvg5m": 0.1,
+    "memoryAvailBytes": 12698054656,
     "memoryTotalBytes": 15838662656,
     "perspective": "container",
-    "uptimeSec": 1792521
+    "uptimeSec": 1793405
   },
   "tokens": {
     "byModel": {
@@ -125,7 +94,7 @@
     }
   },
   "workspace": {
-    "fileCount": 143,
-    "totalBytes": 1461322
+    "fileCount": 144,
+    "totalBytes": 1461460
   }
 }
