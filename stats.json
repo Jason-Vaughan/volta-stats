@@ -3,7 +3,7 @@
   "cron": {
     "error": "FileNotFoundError: [Errno 2] No such file or directory: '/home/node/.openclaw/cron/jobs.json'"
   },
-  "generated": "2026-07-11T22:15:02.596155+00:00",
+  "generated": "2026-07-11T22:30:03.950231+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -46,21 +46,21 @@
     ],
     "documents": 309,
     "indexSizeBytes": 23437312,
-    "lastModifiedAt": "2026-07-11T21:18:47.259604+00:00",
+    "lastModifiedAt": "2026-07-11T22:18:47.508858+00:00",
     "vectors": 1763
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 425813549056,
+    "diskFreeBytes": 425813389312,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 50430283776,
-    "loadAvg15m": 0.0,
-    "loadAvg1m": 0.03,
+    "diskUsedBytes": 50430443520,
+    "loadAvg15m": 0.01,
+    "loadAvg1m": 0.17,
     "loadAvg5m": 0.04,
-    "memoryAvailBytes": 12800503808,
+    "memoryAvailBytes": 12826517504,
     "memoryTotalBytes": 15838662656,
     "perspective": "container",
-    "uptimeSec": 2484603
+    "uptimeSec": 2485503
   },
   "tokens": {
     "byModel": {
