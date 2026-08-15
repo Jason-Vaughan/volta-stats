@@ -1,9 +1,51 @@
 {
   "agent": "volta",
   "cron": {
-    "error": "FileNotFoundError: [Errno 2] No such file or directory: '/home/node/.openclaw/cron/jobs.json'"
+    "count": 4,
+    "jobs": [
+      {
+        "cron": "*/15 * * * *",
+        "enabled": true,
+        "failuresInLast10": 0,
+        "lastRunAtMs": 1786759206852,
+        "lastStatus": "ok",
+        "name": "stats-publish",
+        "nextRunAtMs": 1786760100000,
+        "sessionTarget": "isolated"
+      },
+      {
+        "cron": "0 3 * * *",
+        "enabled": true,
+        "failuresInLast10": 0,
+        "lastRunAtMs": 1786701750800,
+        "lastStatus": "ok",
+        "name": "Memory Dreaming Promotion",
+        "nextRunAtMs": 1786788000000,
+        "sessionTarget": "isolated"
+      },
+      {
+        "cron": "0 7,10,13,16,19,22 * * *",
+        "enabled": true,
+        "failuresInLast10": 0,
+        "lastRunAtMs": 1786759206853,
+        "lastStatus": "ok",
+        "name": "gmail-watch",
+        "nextRunAtMs": 1786770000000,
+        "sessionTarget": "isolated"
+      },
+      {
+        "cron": "0 9 * * *",
+        "enabled": true,
+        "failuresInLast10": 2,
+        "lastRunAtMs": 1786723209577,
+        "lastStatus": "ok",
+        "name": "daily_nvidia_pro6000_used_under_5k",
+        "nextRunAtMs": 1786809600000,
+        "sessionTarget": "isolated"
+      }
+    ]
   },
-  "generated": "2026-07-15T22:46:15.342552+00:00",
+  "generated": "2026-08-15T02:12:12.659182+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -36,7 +78,7 @@
         "tangleclaw-google-oauth"
       ]
     },
-    "version": "2026.5.22"
+    "version": "2026.6.11"
   },
   "qmd": {
     "collections": [
@@ -44,57 +86,27 @@
       "memory-root-main",
       "workspace"
     ],
-    "documents": 333,
-    "indexSizeBytes": 23437312,
-    "lastModifiedAt": "2026-07-15T22:19:17.781260+00:00",
-    "vectors": 1949
+    "documents": 513,
+    "indexSizeBytes": 25989120,
+    "lastModifiedAt": "2026-08-15T01:23:12.532506+00:00",
+    "vectors": 3536
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 425594580992,
+    "diskFreeBytes": 424492335104,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 50649251840,
-    "loadAvg15m": 0.08,
-    "loadAvg1m": 0.71,
-    "loadAvg5m": 0.22,
-    "memoryAvailBytes": 12630507520,
+    "diskUsedBytes": 51751497728,
+    "loadAvg15m": 0.01,
+    "loadAvg1m": 0.05,
+    "loadAvg5m": 0.05,
+    "memoryAvailBytes": 12585029632,
     "memoryTotalBytes": 15838662656,
     "perspective": "container",
-    "uptimeSec": 2832075
+    "uptimeSec": 5436432
   },
-  "tokens": {
-    "byModel": {
-      "claude-haiku-4.5": 4855041,
-      "gemini-2.5-flash": 746161,
-      "llama3.2:1b": 41,
-      "llama3.3:70b-instruct-q8_0": 560502,
-      "qwen2.5-1m:14b-instruct-q6_K": 48176391,
-      "qwen2.5-coder:32b-instruct-fp16": 395358,
-      "qwen2.5:14b-instruct-q4_K_M": 2259482
-    },
-    "last24h": {
-      "byModel": {},
-      "input": 0,
-      "output": 0,
-      "requests": 0,
-      "total": 0
-    },
-    "last7d": {
-      "input": 0,
-      "output": 0,
-      "requests": 0,
-      "total": 0
-    },
-    "lastTurnAt": "2026-06-12T22:10:47.828Z",
-    "total": {
-      "input": 51686587,
-      "output": 331410,
-      "requests": 2481,
-      "total": 56992976
-    }
-  },
+  "tokensNote": "omitted by design \u2014 routed to Monad-1, already counted there",
   "workspace": {
-    "fileCount": 180,
-    "totalBytes": 1758248
+    "fileCount": 270,
+    "totalBytes": 2464535
   }
 }
