@@ -17,10 +17,10 @@
         "cron": "0 7,10,13,16,19,22 * * *",
         "enabled": true,
         "failuresInLast10": 0,
-        "lastRunAtMs": 1786759206853,
+        "lastRunAtMs": 1786770005135,
         "lastStatus": "ok",
         "name": "gmail-watch",
-        "nextRunAtMs": 1786770000000,
+        "nextRunAtMs": 1786802400000,
         "sessionTarget": "isolated"
       },
       {
@@ -35,7 +35,7 @@
       }
     ]
   },
-  "generated": "2026-08-15T05:00:00.519122+00:00",
+  "generated": "2026-08-15T05:15:00.523524+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -83,16 +83,16 @@
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 424491220992,
+    "diskFreeBytes": 424491057152,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 51752611840,
+    "diskUsedBytes": 51752775680,
     "loadAvg15m": 0.0,
     "loadAvg1m": 0.0,
-    "loadAvg5m": 0.0,
-    "memoryAvailBytes": 12618903552,
+    "loadAvg5m": 0.01,
+    "memoryAvailBytes": 12575838208,
     "memoryTotalBytes": 15838662656,
     "perspective": "container",
-    "uptimeSec": 5446499
+    "uptimeSec": 5447399
   },
   "tokensNote": "omitted by design \u2014 routed to Monad-1, already counted there",
   "workspace": {
