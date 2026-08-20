@@ -27,15 +27,15 @@
         "cron": "0 9 * * *",
         "enabled": true,
         "failuresInLast10": 0,
-        "lastRunAtMs": 1787155206232,
+        "lastRunAtMs": 1787241605461,
         "lastStatus": "ok",
         "name": "daily_nvidia_pro6000_used_under_5k",
-        "nextRunAtMs": 1787241600000,
+        "nextRunAtMs": 1787328000000,
         "sessionTarget": "isolated"
       }
     ]
   },
-  "generated": "2026-08-20T16:00:00.525855+00:00",
+  "generated": "2026-08-20T16:15:00.517248+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -83,20 +83,20 @@
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 424357564416,
+    "diskFreeBytes": 424357376000,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 51886268416,
+    "diskUsedBytes": 51886456832,
     "loadAvg15m": 0.0,
-    "loadAvg1m": 0.05,
-    "loadAvg5m": 0.02,
-    "memoryAvailBytes": 12554969088,
+    "loadAvg1m": 0.01,
+    "loadAvg5m": 0.01,
+    "memoryAvailBytes": 12605808640,
     "memoryTotalBytes": 15838662656,
     "perspective": "container",
-    "uptimeSec": 5918099
+    "uptimeSec": 5918999
   },
   "tokensNote": "omitted by design \u2014 routed to Monad-1, already counted there",
   "watcher": {
-    "lastRunAtMs": 1787241120520
+    "lastRunAtMs": 1787242020533
   },
   "workspace": {
     "fileCount": 288,
