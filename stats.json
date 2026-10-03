@@ -35,7 +35,7 @@
       }
     ]
   },
-  "generated": "2026-10-03T22:30:00.077965+00:00",
+  "generated": "2026-10-03T22:45:00.079362+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -83,20 +83,20 @@
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 423262699520,
+    "diskFreeBytes": 423262629888,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 52981133312,
+    "diskUsedBytes": 52981202944,
     "loadAvg15m": 0.0,
     "loadAvg1m": 0.0,
-    "loadAvg5m": 0.01,
-    "memoryAvailBytes": 12895756288,
+    "loadAvg5m": 0.0,
+    "memoryAvailBytes": 12873613312,
     "memoryTotalBytes": 15838617600,
     "perspective": "container",
-    "uptimeSec": 1776694
+    "uptimeSec": 1777594
   },
   "tokensNote": "omitted by design \u2014 routed to Monad-1, already counted there",
   "watcher": {
-    "lastRunAtMs": 1791066120087
+    "lastRunAtMs": 1791067020082
   },
   "workspace": {
     "fileCount": 420,
