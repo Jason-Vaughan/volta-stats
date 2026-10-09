@@ -7,10 +7,10 @@
         "cron": "0 3 * * *",
         "enabled": true,
         "failuresInLast10": 0,
-        "lastRunAtMs": 1791453687118,
+        "lastRunAtMs": 1791540087535,
         "lastStatus": "ok",
         "name": "Memory Dreaming Promotion",
-        "nextRunAtMs": 1791540000000,
+        "nextRunAtMs": 1791626400000,
         "sessionTarget": "isolated"
       },
       {
@@ -35,7 +35,7 @@
       }
     ]
   },
-  "generated": "2026-10-09T10:00:00.336581+00:00",
+  "generated": "2026-10-09T10:15:00.328075+00:00",
   "host": "volta",
   "openclaw": {
     "memory": {
@@ -76,30 +76,30 @@
       "memory-root-main",
       "workspace"
     ],
-    "documents": 843,
+    "documents": 849,
     "indexSizeBytes": 40083456,
-    "lastModifiedAt": "2026-10-09T09:12:04.606316+00:00",
-    "vectors": 6756
+    "lastModifiedAt": "2026-10-09T10:12:38.192501+00:00",
+    "vectors": 6828
   },
   "schemaVersion": 1,
   "system": {
-    "diskFreeBytes": 423058345984,
+    "diskFreeBytes": 423058042880,
     "diskTotalBytes": 501809635328,
-    "diskUsedBytes": 53185486848,
-    "loadAvg15m": 0.0,
-    "loadAvg1m": 0.0,
-    "loadAvg5m": 0.0,
-    "memoryAvailBytes": 12728848384,
+    "diskUsedBytes": 53185789952,
+    "loadAvg15m": 0.25,
+    "loadAvg1m": 0.28,
+    "loadAvg5m": 0.47,
+    "memoryAvailBytes": 12880728064,
     "memoryTotalBytes": 15838617600,
     "perspective": "container",
-    "uptimeSec": 2250094
+    "uptimeSec": 2250994
   },
   "tokensNote": "omitted by design \u2014 routed to Monad-1, already counted there",
   "watcher": {
-    "lastRunAtMs": 1791539520329
+    "lastRunAtMs": 1791540420331
   },
   "workspace": {
-    "fileCount": 435,
-    "totalBytes": 3220602
+    "fileCount": 438,
+    "totalBytes": 3234266
   }
 }
